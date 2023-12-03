@@ -1,0 +1,174 @@
+/* public/css/styles.css */
+
+/* home */
+
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.home-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.hero-section {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.hero-section h1 {
+    font-size: 2.5em;
+    color: #333;
+}
+
+.hero-section p {
+    font-size: 1.2em;
+    color: #666;
+    margin-bottom: 20px;
+}
+
+.cta-button {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 1.2em;
+    text-decoration: none;
+    color: #fff;
+    background-color: #3498db;
+    border-radius: 5px;
+}
+
+.cta-button:hover {
+    background-color: #2980b9;
+}
+
+.skills-section {
+    text-align: center;
+}
+
+.skills-section h2 {
+    font-size: 2em;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.skills-section ul {
+    list-style: none;
+    padding: 0;
+}
+
+.skills-section li {
+    font-size: 1.2em;
+    color: #666;
+    margin-bottom: 5px;
+}
+
+
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+}
+
+/* Common styles for sections */
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    color: #333;
+}
+
+p {
+    color: #666;
+}
+
+/* About Me styles */
+.about-container {
+    margin-top: 20px;
+}
+
+/* Projects styles */
+.projects-container {
+    margin-top: 20px;
+}
+
+.project-card {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 15px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Contact styles */
+.contact-container {
+    margin-top: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-bottom: 8px;
+}
+
+input,
+textarea {
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+button {
+    background-color: #3498db;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #2980b9;
+}
+
+/* Footer styles */
+.site-footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
+
+.social-links {
+    display: flex;
+    justify-content: center;
+}
+
+.social-links a {
+    margin: 0 10px;
+}
+
+.social-links img {
+    width: 30px;
+    height: 30px;
+}
