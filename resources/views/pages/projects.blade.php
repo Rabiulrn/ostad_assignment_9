@@ -4,23 +4,14 @@
 
 @section('content')
 <div class="projects-container">
-        <h1>My Projects</h1>
-{{dump($data)}}
-        <!-- If using a database, loop through projects -->
-  @foreach($data as $project)
-            <div class="project-card">
-                <h2>{{ $project->name }}</h2>
-                <p>{{ $project->description }}</p>
-                <!-- Add more project details as needed -->
-            </div>
-        @endforeach
+    <h1>My Projects</h1>
 
-        <!-- If not using a database, manually create project cards -->
-<!--         
+    @foreach($data as $project)
         <div class="project-card">
-            <h2>Project Title</h2>
-            <p>Project Description</p>
+            <h2>{{ $project->name }}</h2>
+            <p>{{ $project->description }}</p>
         </div>
-        -->
-    </div>
+    @endforeach
+
+</div>
 @endsection

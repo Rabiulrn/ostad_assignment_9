@@ -9,7 +9,7 @@
 <div class="home-container">
         <section class="hero-section">
             <h1>Welcome to My Portfolio</h1>
-            <p>Hello, I'm [Your Name], a passionate [Your Role/Profession].</p>
+            <p>Hello, I'm Rabiul Islam, a passionate Programmer.</p>
             <a href="{{ route('about') }}" class="cta-button">Learn More</a>
         </section>
 
@@ -18,7 +18,7 @@
             <ul>
                 <li>Web Development</li>
                 <li>UI/UX Design</li>
-                <li>Graphic Design</li>
+              
                 <!-- Add more skills as needed -->
             </ul>
         </section>
